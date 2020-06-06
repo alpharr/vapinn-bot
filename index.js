@@ -7,7 +7,7 @@ const PREFIX = "v!";
 
 bot.on("ready", () =>{
     console.log(">> Vapinn bot, Loaded. <<");
-    bot.user.setActivity("Vapinn || v!help");
+    bot.user.setActivity("VaporWave | v!help");
 })
 
 bot.on("message", message=>{
